@@ -5,51 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Practica Encriptación</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <main role="main" class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1>Ingrese su cuenta</h1>
-                <br>
-                <form  id="formulario">
-                    <div class="form-group">
-                        <input name="correo" required id="correo" type="email" class="form-control" placeholder="Nombre">
-                    </div>
-                    <div class="form-group">
-                        <input name="password" required id="password" type="password" class="form-control"
-                            placeholder="contraseña">
-                    </div>
-                    <button class="btn btn-success">Enviar</button>
-                </form>
-            </div>
+    <h1>Challenge de Encriptación</h1>
+    <div>
+        <div><input type="text" placeholder="ingrese el texto a encriptar"></div>
+        <div>
+            <textarea type="text"></textarea>
         </div>
-    </main>
-    <script>
-        const $formulario = document.querySelector("#formulario"),
-            $correo = document.querySelector("#correo"),
-            $password = document.querySelector("#password"),
-            correo = "correo@correo.com",
-            password = "contra";
-
-        function verificar(){
-            var encontrado = false;
-                if($correo.value == correo && $password.value == password){
-                alert("Correcto");
-                encontrado = true;
-                }else{
-                    alert("Incorrecto");
-                }
-            }    
-            
-        var button = document.querySelector("button");
-        button.onclick = verificar;                
-    </script>
-
+    </div>
 </body>
 
-</html>
+</html> 
