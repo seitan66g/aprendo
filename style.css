@@ -10,8 +10,8 @@
     display: flex;
     border: 1px solid black;
     margin: auto;
-    width: 1440px;
-    height: 1024px;
+    width: 960px;
+    height: 650px;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -35,9 +35,7 @@ input{
     background-color: lightgray;
     border: none;
     text-align: center;
-}
-input:active{
-    border: none;
+    outline: none;
 }
 .buttonstyleleft{
     width: 328px;
