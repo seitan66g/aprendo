@@ -2,3 +2,73 @@
     padding: 0;
     margin: 0;
 }
+
+#titulo{
+    text-align: center;
+}
+#container{
+    display: flex;
+    border: 1px solid black;
+    margin: auto;
+    width: 1440px;
+    height: 1024px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+#left{
+    background-color: lightgray;
+    height: 93%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    border-radius: 28px 0px 0px 28px;
+}
+#texto{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    align-self: center;
+    top: center;
+}
+input{
+    background-color: lightgray;
+    border: none;
+    text-align: center;
+}
+input:active{
+    border: none;
+}
+.buttonstyleleft{
+    width: 328px;
+    height: 67px;
+    border-radius: 28px;
+    align-self: flex-end;
+    margin-bottom: 150px;
+    margin-left: 20px;
+}
+#encriptarbutton{
+    background-color: black;
+    color: white;
+}
+#right{
+    display: flex;
+    background-color: blue;
+    width: 32%;
+    height: 93%;
+    border-radius: 0px 28px 28px 0px;
+    justify-content: center;
+}
+#textosalida{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    align-self: center;
+}
+.buttonstyleright{
+    width: 328px;
+    height: 67px;
+    border-radius: 28px;
+    align-self: flex-end;
+    margin-bottom: 150px;
+}
