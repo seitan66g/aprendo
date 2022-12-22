@@ -1,72 +1,101 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
-
-#titulo{
-    text-align: center;
-}
-#container{
-    display: flex;
-    border: 1px solid black;
-    margin: auto;
+.container{
     width: 960px;
     height: 650px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+    padding: 5%;
+    background: #F3F5FC;
 }
-#left{
-    background-color: lightgray;
-    height: 93%;
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    border-radius: 28px 0px 0px 28px;
+/* cabecera */
+.header{
+    width: 100%;
+    background-color: lightgreen;
+    float: left;
 }
-#texto{
-    position: absolute;
-    width: 577px;
-    height: 48px;
-    align-self: center;
-    top: center;
+.logo{
+    float: inherit;
+    margin-top: 1%;
+    margin-left: 5%;
 }
-input{
-    background-color: lightgray;
+.title{
+    float: inherit;
+    margin-left: 20%;
+}
+/* cajas izquierda */
+.left{
+    background: lightblue;
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+}
+
+.text-entered{
+    float: left;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
     border: none;
-    text-align: center;
     outline: none;
+    padding: 30px;
+    font-size: 20px;
+    color: #0A3871;
+    background: #F3F5FC;
+    height: 70%;
 }
-.buttonstyleleft{
-    width: 328px;
-    height: 67px;
-    border-radius: 28px;
-    align-self: flex-end;
-    margin-bottom: 150px;
-    margin-left: 20px;
+.btn{
+    background: lightpink;
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
 }
-#encriptarbutton{
-    background-color: black;
+#btn-encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #0A3871;
     color: white;
 }
-#right{
-    display: flex;
-    background-color: blue;
-    width: 32%;
-    height: 93%;
-    border-radius: 0px 28px 28px 0px;
-    justify-content: center;
+#btn-desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #D8DFE8;
 }
-#textosalida{
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    align-self: center;
+/* caja derecha */
+.right{
+    background: lightcyan;
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
 }
-.buttonstyleright{
-    width: 328px;
-    height: 67px;
-    border-radius: 28px;
-    align-self: flex-end;
-    margin-bottom: 150px;
+#img-right{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+#texto{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+#text-exit{
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
 }
